@@ -1,4 +1,7 @@
 ## This project was performed by Dmytro Moroz, as a task within a full-stack course at Dan-It (Kyiv).
+<hr>
+Path to the files:
+<b>..\snake_game\20210421_Snake_game_Step_project\src\main\java\com\codenjoy\dojo\snake</b>
 
 # Approach to creating snake AI:
 - A modified version of the A-star algorithm was used for pathfinding.
