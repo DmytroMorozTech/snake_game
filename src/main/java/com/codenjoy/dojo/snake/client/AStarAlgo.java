@@ -207,17 +207,17 @@ public class AStarAlgo {
     }
 
 
-    public void printSnakeCoords() {
-        System.out.println("Current snake:");
-
-        SinglyLinkedList.Node<Point> node = snake.getHead();
-        System.out.print("[");
-        while (node != null) {
-            System.out.printf(" [%d,%d],", node.getElement().getX(), node.getElement().getY());
-            node = node.getNext();
-        }
-        System.out.print("]\n");
-        System.out.printf("Length of snake: %d \n", snake.size());
-    }
+//    public void printSnakeCoords() {
+//        System.out.println("Current snake:");
+//
+//        SinglyLinkedList.Node<Point> node = snake.getHead();
+//        System.out.print("[");
+//        while (node != null) {
+//            System.out.printf(" [%d,%d],", node.getElement().getX(), node.getElement().getY());
+//            node = node.getNext();
+//        }
+//        System.out.print("]\n");
+//        System.out.printf("Length of snake: %d \n", snake.size());
+//    }
 
 }
